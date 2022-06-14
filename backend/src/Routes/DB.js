@@ -6,7 +6,7 @@ let db
 const DBStart = async () => {
 	console.log('DB server connecting...')
 	// const client = await MongoClient.connect(API_KEY, {
-	const client = await MongoClient.connect('mongodb+srv://SasiKanth:skdb1@atlascluster.isgfsav.mongodb.net/?retryWrites=true&w=majority', {
+	const client = await MongoClient.connect('', {
 		useNewUrlParser: true,
 		useUnifiedTopology: true
 	})
